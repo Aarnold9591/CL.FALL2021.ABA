@@ -1,0 +1,21 @@
+.header-text {
+    font-family: 'Roboto Slab', serif;
+    color:blueviolet;
+}
+h1 {
+    color:cadetblue;
+}
+.nav-list {
+    padding-left: 0;
+    width: 550px; 
+    margin-top: 10px;
+}
+.spacing {
+    justify-content: space-between;
+}
+.flex {display: flex }
+.image {
+    max-width: 100%;
+    max-height: 400px;
+
+}
