@@ -1,21 +1,36 @@
 .header-text {
     font-family: 'Roboto Slab', serif;
-    color:blueviolet;
+    color: cadetblue;
+
 }
-h1 {
-    color:cadetblue;
+.text-secondary {
+    font-size: 30px; 
+    text-align: center;
 }
+
 .nav-list {
-    padding-left: 0;
+    padding: justify;
     width: 550px; 
     margin-top: 10px;
+    display: flex;
 }
 .spacing {
     justify-content: space-between;
 }
 .flex {display: flex }
+.flex-column {flex-direction: column;}
 .image {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 50%;
+    opacity: .5;
+}
+.ul-display {
+    list-style-type: none;
 
+}
+.center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
 }
