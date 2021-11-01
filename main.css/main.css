@@ -1,21 +1,35 @@
+
+
+
 .header-text {
-    font-family: 'Roboto Slab', serif;
+   
     color: cadetblue;
+
+}
+
+.logo {
+    border-radius: 50%;
+    max-height: 15%;
+    max-width: 15%;
 
 }
 .text-heading {
     font-size: 30px; 
 }
 .text-secondary {
-    
+    color: #FFFFFF;
     text-align: center;
 }
 
 .nav-list {
     padding: justify;
-    width: 550px; 
-    margin-top: 10px;
+    margin: 10%;
     display: flex;
+    text-align: center;
+   
+}
+.nav-border {
+    border-bottom: 1.5px solid #3B4F66;
 }
 .spacing {
     justify-content: space-between;
@@ -26,6 +40,10 @@
     max-width: 100%;
     max-height: 400px;
     opacity: .5;
+}
+.award {
+    max-width: 300px;
+    max-height: 300px;
 }
 .ul-display {
     list-style-type: none;
@@ -47,7 +65,7 @@
     flex: 1;
   }
   .border {
-      background-color: #E6E6FA;
+      background-color: #3B4F66;
       padding: 5%;
   }
 
@@ -60,3 +78,57 @@
 .instagram {
     background-image: url('/img/instagram.png');
 }
+
+/*--Nav and Hamburger Btn--*/
+.nav {
+    border-bottom: #3B4F66;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    text-decoration: none;
+    color:#3B4F66;
+    margin: 0 10px;
+    line-height: 50px;
+
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+@media (max-width: 500px){
+    label {
+        display: block;
+        cursor: pointer;
+        width: 26px;
+        float: right;
+    }
+    .menu {
+        text-align: center;
+        width: 100%; 
+        display: none;
+    }
+    .menu a {
+        clear: right;
+        display: block; 
+        border-bottom: 1px solid #3B4F66;
+        margin: 0; 
+        
+    }
+    #toggle:checked + .menu {
+        display: block; 
+    }
+
+    
+}
+ 
+
