@@ -2,23 +2,87 @@
 
 
 .header-text {
-   
-    color: cadetblue;
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 
-.logo {
-    border-radius: 50%;
-    max-height: 15%;
-    max-width: 15%;
+/*--Nav and Hamburger Btn--*/
+.nav {
+    border-bottom: #3B4F66;
+    text-align: center;
+    height: 80px;
+    line-height: 40px;
+}
+.menu {
+    margin: 0 20px 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu a {
+    text-decoration: none;
+    color:#3B4F66;
+    margin: 0 10px;
+    line-height: 50px;
 
 }
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+@media screen and (max-width: 600px){
+    label {
+        display: block;
+        cursor: pointer;
+        width: 26px;
+        float: center;
+    }
+    .menu {
+        text-align: center;
+        width: 100%; 
+        display: none;
+    }
+    .menu a {
+        clear: right;
+        display: block; 
+        border-bottom: 1px solid #3B4F66;
+        margin: 0; 
+        
+    }
+    #toggle:checked + .menu {
+        display: block; 
+    }
+
+ /*--Hero--*/   
+}
+.container {
+    color: #3B4F66;
+    object-fit: contain;
+}
+.hero {
+
+    margin: 0 auto; 
+    max-width: 1170px;
+
+}
+.banner {
+    background-image: url(/img/Bridle&BitBanner.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+.center {justify-content: center;}
 .text-heading {
     font-size: 30px; 
 }
 .text-secondary {
     color: #FFFFFF;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-list {
@@ -41,9 +105,16 @@
     max-height: 400px;
     opacity: .5;
 }
-.award {
-    max-width: 300px;
-    max-height: 300px;
+.bottom-directory {
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media  screen and (max-width: 500px) {
+
+    
 }
 .ul-display {
     list-style-type: none;
@@ -69,6 +140,11 @@
       padding: 5%;
   }
 
+
+
+
+ 
+/*--Social Media--*/
 .twitter {
     background-image: url('/img/twitter.png');
 }
@@ -78,57 +154,3 @@
 .instagram {
     background-image: url('/img/instagram.png');
 }
-
-/*--Nav and Hamburger Btn--*/
-.nav {
-    border-bottom: #3B4F66;
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-}
-.menu {
-    margin: 0 30px 0 0;
-}
-.menu a {
-    text-decoration: none;
-    color:#3B4F66;
-    margin: 0 10px;
-    line-height: 50px;
-
-}
-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-}
-#toggle {
-    display: none;
-}
-@media (max-width: 500px){
-    label {
-        display: block;
-        cursor: pointer;
-        width: 26px;
-        float: right;
-    }
-    .menu {
-        text-align: center;
-        width: 100%; 
-        display: none;
-    }
-    .menu a {
-        clear: right;
-        display: block; 
-        border-bottom: 1px solid #3B4F66;
-        margin: 0; 
-        
-    }
-    #toggle:checked + .menu {
-        display: block; 
-    }
-
-    
-}
- 
-
