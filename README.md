@@ -2,11 +2,9 @@
 
 Project Brief: 
   
-Project Requirements: 
-  - Mobile First Website Development 
-  -Responsive Menu, Images, and Font Sizing
+
   
 Media Query 1: Created a hamburger menu for mobile screens. 
-Media Query 2: 
+Media Query 2: Adjusted hero for tablet and phone screens.
 
-Images: Brandon Randolph, Jean Alves, C.Spencer, Van Gulick
+Images: Brandon Randolph, Jean Alves, C.Spencer, Van Gulick, 
