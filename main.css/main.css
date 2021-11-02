@@ -34,17 +34,18 @@ label {
 #toggle {
     display: none;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     label {
         display: block;
         cursor: pointer;
-        width: 26px;
-        float: center;
+        width: 30px;
+        float: none;
     }
     .menu {
         text-align: center;
         width: 100%; 
         display: none;
+    
     }
     .menu a {
         clear: right;
@@ -74,7 +75,53 @@ label {
     height: 500px;
     background-size: cover;
     background-position: center center;
+}/*--hero medium screen--*/
+@media screen and (max-width: 850px){
+    .container {
+        color: #3B4F66;
+        object-fit: contain;
+    }
+    .hero {
+    
+        margin: 0 auto; 
+        max-width: 850px;
+    
+    }
+    .banner {
+        background-image: url(/img/Bridle&BitTablet.png);
+        height: 275px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .center {justify-content: center;}
+    .flex-column {flex-direction: column;}
+    .align-center {align-items: center;}
 }
+/*---hero small screen---*/
+@media screen and (max-width: 500px){
+    .container {
+        color: #3B4F66;
+        object-fit: contain;
+    }
+    .hero {
+    
+        margin: 0 auto; 
+        max-width: 500px;
+    
+    }
+    .banner {
+        background-image: url(/img/Bridle&bitSmall.png);
+        height: 150px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .center {justify-content: center;}
+    .flex-column {flex-direction: column;}
+    .align-center {align-items: center;}
+}
+
+/*---END hero section---*/
+
 .center {justify-content: center;}
 .text-heading {
     font-size: 30px; 

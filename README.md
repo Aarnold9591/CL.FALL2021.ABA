@@ -8,3 +8,5 @@ Project Requirements:
   
 Media Query 1: Created a hamburger menu for mobile screens. 
 Media Query 2: 
+
+Images: Brandon Randolph, Jean Alves, C.Spencer, Van Gulick
