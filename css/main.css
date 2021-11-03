@@ -1,0 +1,214 @@
+.header-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*--Navigation--*/
+.nav {
+  border-bottom: #3b4f66;
+  text-align: center;
+  height: 80px;
+  line-height: 40px;
+}
+.menu {
+  margin: 0 20px 0 0;
+  font-family: "Open Sans", sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: #3b4f66;
+  margin: 0 10px;
+  line-height: 50px;
+}
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+#toggle {
+  display: none;
+}
+/*--Hamburger Btn--*/
+@media screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+    width: 35px;
+   
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #3b4f66;
+    
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+  /*--Hero--*/
+}
+.container {
+  color: #3b4f66;
+  object-fit: contain;
+}
+.hero {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.banner {
+  background-image: url(../img/Bridle&BitBanner.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+} 
+section.banner {
+    background-image: url(../img/Bridle&BitBanner.png);
+    height: 347px;
+    background-size: cover;
+    background-position: center center;
+}
+/*--hero medium screen--*/
+@media screen and (max-width: 850px) {
+  .container {
+    color: #3b4f66;
+    object-fit: contain;
+  }
+  .hero {
+    margin: 0 auto;
+    max-width: 850px;
+  }
+  .banner {
+    background-image: url(../img/Bridle&BitTablet.png);
+    height: 275px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .center {
+    justify-content: center;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .align-center {
+    align-items: center;
+  }
+}
+/*---hero small screen---*/
+@media screen and (max-width: 500px) {
+  .container {
+    color: #3b4f66;
+    object-fit: contain;
+  }
+  .hero {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .banner {
+    background-image: url(../img/Bridle&BitPhone.png);
+    height: 100px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .center {
+    justify-content: center;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .align-center {
+    align-items: center;
+  }
+}
+/*---END hero section---*/
+
+.center {
+  justify-content: center;
+}
+.text-heading {
+  font-size: 30px;
+  /*text-transform: uppercase;*/
+  border-bottom: 1.5px solid #a7e66e;
+}
+.text-secondary {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-list {
+  padding: justify;
+  margin: 10%;
+  display: flex;
+  text-align: center;
+}
+.nav-border {
+  border-bottom: 1.5px solid #3b4f66;
+}
+.welcome-border {
+    border: 3px solid #a7e66e;
+    margin-top: 5px;
+    margin-top: 5px;
+
+}
+.spacing {
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+} 
+.image {
+  max-width: 100%;
+  max-height: 400px;
+  /* opacity: .2; */
+}
+.bottom-directory {
+  padding-left: 2%;
+  display: flex;
+  margin: auto;
+  /*justify-content: space-between;*/
+}
+
+/*@media screen and (max-width: 500px) {
+}*/
+.ul-display {
+  list-style-type: none;
+}
+.center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-grid {
+  display: flex;
+  padding: 10%;
+}
+
+.col {
+  flex: 1;
+}
+.border {
+  background-color: #3b4f66;
+  padding: 5%;
+}
+
+/*--Social Media--*/
+/*
+.twitter {
+  background-image: url("/img/twitter.png");
+}
+.facebook {
+  background-image: url("/img/facebook.png");
+}
+.instagram {
+  background-image: url("/img/instagram.png");
+}
+*/
