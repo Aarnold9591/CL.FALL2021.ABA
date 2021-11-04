@@ -6,7 +6,7 @@
 .nav {
   border-bottom: #3b4f66;
   text-align: center;
-  height: 80px;
+  /* height: 80px;  */
   line-height: 40px;
 }
 .menu {
@@ -66,12 +66,12 @@ label {
   background-size: cover;
   background-position: center center;
 } 
-section.banner {
+/* section.banner {
     background-image: url(../img/Bridle&BitBanner.png);
     height: 347px;
     background-size: cover;
-    background-position: center center;
-}
+    background-position: center center; 
+}*/
 /*--hero medium screen--*/
 @media screen and (max-width: 850px) {
   .container {
@@ -201,14 +201,13 @@ section.banner {
 }
 
 /*--Social Media--*/
-/*
+
 .twitter {
-  background-image: url("/img/twitter.png");
+  background-image: url(../img/twitter.png);
 }
 .facebook {
-  background-image: url("/img/facebook.png");
+  background-image: url(../img/facebook.png);
 }
 .instagram {
-  background-image: url("/img/instagram.png");
+  background-image: url(../img/instagram.png);
 }
-*/
