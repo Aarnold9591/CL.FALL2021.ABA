@@ -61,8 +61,8 @@ label {
   max-width: 1170px;
 }
 .banner {
-  background-image: url(../img/Bridle&BitBanner.png);
-  height: 500px;
+  background-image: url(../img/Bridle&BitDesktop.png);
+  height: 195px;
   background-size: cover;
   background-position: center center;
 } 
@@ -109,8 +109,8 @@ label {
     max-width: 500px;
   }
   .banner {
-    background-image: url(../img/Bridle&BitPhone.png);
-    height: 100px;
+    background-image: url(../img/Bridle&Bit.png);
+    height: 350px;
     background-size: cover;
     background-position: center center;
   }
@@ -131,7 +131,7 @@ label {
 }
 .text-heading {
   font-size: 30px;
-  /*text-transform: uppercase;*/
+  /* text-transform: uppercase; */
   border-bottom: 1.5px solid #a7e66e;
 }
 .text-secondary {
