@@ -7,12 +7,12 @@
     <title>Bridle and Bit Bed and Breakfast</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
   </head>
@@ -48,9 +48,9 @@
       <div class="flex-grid border welcome-border">
         <div class="col">
           <h2 class="text-secondary text-heading">
-            Welcome to the Bridle and Bit Bed and Breakfast
+            Welcome to the Bridle and Bit
           </h2>
-          <h3 class="text-secondary">
+        
             
           </h3>
           <p class="text-secondary">
@@ -64,12 +64,7 @@
             ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
           </p>
           <p class="text-secondary">
-            Quam nulla porttitor massa id neque aliquam vestibulum morbi. Elit
-            ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
-            nulla porttitor massa id neque aliquam vestibulum morbi. Elit
-            ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
+            Cras sem elit, ullamcorper a egestas in, condimentum et quam. Maecenas consectetur, justo faucibus efficitur ultricies, augue dolor eleifend purus, eu rutrum felis mauris ut felis. Aliquam lacinia et nunc ac eleifend. Suspendisse quis tellus vehicula, tempus arcu non, tempus quam. Maecenas et augue egestas, convallis velit non, fringilla magna. Nulla varius tincidunt tincidunt. Nulla congue non enim a venenatis. Vestibulum volutpat erat vel purus viverra blandit. Donec suscipit rutrum neque ut pharetra. Aliquam molestie rutrum purus vel posuere.
           </p>
         </div>
       </div>
@@ -78,31 +73,46 @@
     <section>
       <div class="row flex-grid">
         <div class="col bottom-directory">
-          <img class="image" alt="Service Provided" src="img/service.jpg" />
-          <p class="center align-center"></p>
+          <img class="image image-directory" alt="Service Provided" src="img/service.jpg" />
+          <!-- <p class="center align-center"></p> -->
         </div>
 
         <div class="col bottom-directory">
-          <img class="image" alt="Service Provided" src="img/SittingRoom.jpg" />
-          <p class="center align-center"></p>
+          <img class="image image-directory" alt="Service Provided" src="img/SittingRoom.jpg" />
+          <!-- <p class="center align-center"></p> -->
         </div>
 
         <div class="col bottom-directory">
-          <img class="image" alt="Service Provided" src="img/HorseFarm.jpg" />
-          <p class="center align-center"></p>
+          <img class="image image-directory" alt="Service Provided" src="img/HorseFarm.jpg" />
+          <!-- <p class="center align-center"></p> -->
         </div>
       </div>
     </section>
     <!---Footer-->
     <section class="col flex-grid border">
-      <div class="text-secondary">Follow Us</div>
+      <div class="social-column social-header">
+        <h2>Follow Us</h2>
+        <p>uam nulla porttitor massa id neque aliquam vestibulum morbi. Elit
+          ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor</p>
+      
+      </div>
 
       <ul class="ul-display">
         <li><a class="twitter" href="#"></a></li>
         <li><a class="facebook" href="#"></a></li>
         <li><a class="instagram" href="#"></a></li>
       </ul>
-    </section>
+      <!--Email--->
+      <div class="flex-column"><h2 class="email-header ">Sign Up Today</h2>
+        <h3 class="email-text">Subscribe to our monthly newsletter and be the first to learn about our exclusive events and special offers.</h3>
+<form class="text-secondary" name="form1" action="#"> 
+Email: <input type='text' name='email'/></br></br>
+<input class="btn-style" type="submit" name="submit" value="Submit" onclick="validateEmail(document.form1.email)"/>
+</form>
+</div>
+        
     <script src="js/custom.js"></script>
   </body>
 </html>
