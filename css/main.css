@@ -34,7 +34,6 @@ label {
     display: block;
     cursor: pointer;
     width: 35px;
-   
   }
   .menu {
     text-align: center;
@@ -44,7 +43,6 @@ label {
   .menu a {
     display: block;
     border-bottom: 1px solid #3b4f66;
-    
   }
   #toggle:checked + .menu {
     display: block;
@@ -62,16 +60,11 @@ label {
 }
 .banner {
   background-image: url(../img/Bridle&BitDesktop.png);
-  height: 195px;
+  height: 165px;
   background-size: cover;
   background-position: center center;
-} 
-/* section.banner {
-    background-image: url(../img/Bridle&BitBanner.png);
-    height: 347px;
-    background-size: cover;
-    background-position: center center; 
-}*/
+}
+
 /*--hero medium screen--*/
 @media screen and (max-width: 850px) {
   .container {
@@ -110,7 +103,7 @@ label {
   }
   .banner {
     background-image: url(../img/Bridle&Bit.png);
-    height: 350px;
+    height: 315px;
     background-size: cover;
     background-position: center center;
   }
@@ -126,13 +119,58 @@ label {
 }
 /*---END hero section---*/
 
+/*---Image Carousel ---*/
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.carousel-container {
+  max-width: 970px;
+ 
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 0 3px 3px 0;
+  
+}
+
+ .next {
+  right: 0;
+  border-radius: 3px 0 0 3px; 
+} 
+
+.active, .next:hover {
+  background-color: #a7e66e;
+}
+.active, .prev:hover {
+  background-color: #a7e66e;
+}
+
+
+/*---End Image Carousel ---*/
+
+
+
 .center {
   justify-content: center;
 }
 .text-heading {
   font-size: 30px;
-  color:#ffffff;
-  text-transform: uppercase; 
+  color: #ffffff;
+  text-transform: uppercase;
   border-bottom: 1.5px solid #a7e66e;
 }
 .text-secondary {
@@ -151,10 +189,9 @@ label {
   border-bottom: 1.5px solid #3b4f66;
 }
 .welcome-border {
-    border: 3px solid #a7e66e;
-    margin-top: 5px;
-    margin-top: 5px;
-
+  border: 3px solid #a7e66e;
+  margin-top: 5px;
+  margin-top: 5px;
 }
 .spacing {
   justify-content: space-between;
@@ -165,15 +202,13 @@ label {
 .flex-column {
   flex-direction: column;
   max-width: 35%;
-  display:inline;
+  display: inline;
   /* text-align: right; */
-  
-
-} 
-.social-column{
+}
+.social-column {
   flex-direction: column;
   max-width: 50%;
-  display:inline;
+  display: inline;
   padding-right: 5%;
   padding-left: 5%;
   /* text-align: right; */
@@ -194,8 +229,52 @@ label {
   justify-content: space-between;
 }
 
-/*@media screen and (max-width: 500px) {
-}*/
+.directory-style {
+  border-style: solid;
+  color: #3b4f66;
+  
+}
+.directory-text {
+  position: absolute;
+  top: 50%; 
+  bottom: 50%;
+  color: #3b4f66;
+  font-size: large;
+  transform: translate(-50%, -50%);
+
+}
+.active, .image:hover {
+  opacity: .8;
+  color: #a7e66e;
+  
+}
+
+@media screen and (max-width: 850px) {
+  .directory-adjust {
+    flex-direction: column;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* max-height: 20px; */
+  }
+}
+@media screen and (max-width: 850px) {
+  .image-adjust {
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    max-height: 5%;
+    /* width: 100%; */
+    max-height: 85%;
+    object-fit: cover;
+  }
+  .bottom-directory {
+    padding-top: 1%;
+    display: flex;
+    /* margin: auto; */
+    justify-content: space-between;
+    max-height: 100px;
+    max-width: 100%;
+  }
+}
 .ul-display {
   list-style-type: none;
 }
@@ -207,13 +286,13 @@ label {
 }
 .flex-grid {
   display: flex;
-  padding: 10%;
+  padding: 5%;
   flex-grow: 1;
 }
 
-.col {
+/* .col {
   flex: 1;
-}
+} */
 .border {
   background-color: #3b4f66;
   padding: 5%;
@@ -243,10 +322,10 @@ label {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-style: bold;
-  color:#ffffff;
+  color: #ffffff;
   text-decoration: underline #a7e66e;
 }
-.email-text{
+.email-text {
   text-align: left;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -257,6 +336,6 @@ label {
   text-align: left;
   font-family: "Open Sans", sans-serif;
   font-style: bold;
-  color:#ffffff;
+  color: #ffffff;
   text-decoration: underline #a7e66e;
 }

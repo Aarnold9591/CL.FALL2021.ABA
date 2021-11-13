@@ -7,12 +7,6 @@
     <title>Bridle and Bit Bed and Breakfast</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
   </head>
@@ -41,7 +35,34 @@
 
     <!---Image Carousel--->
     <section>
-      <img class="image" alt="Bed and Breakfast" src="img/Bed&Breakfast.jpg" />
+      <div class="carousel-container">
+
+        <div class="mySlides"> 
+          <img src="img/Bed&Breakfast.jpg" style="width:100%">
+          <!-- <div class="directory-text"><h2>Gallery</h2></div> -->
+        </div>
+        
+        <div class="mySlides">
+          <img src="img/horses.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides"> 
+          <img src="img/weddingTable.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides"> 
+          <img src="img/treat-room.jpg" style="width:100%">
+        </div>
+        
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        
+        
+      
+     <!---- <img class="image" alt="Bed and Breakfast" src="img/Bed&Breakfast.jpg" />-->
     </section>
     <!---Welcome--->
     <section>
@@ -69,21 +90,25 @@
         </div>
       </div>
     </section>
-    <!---Clickable Images-->
+    <!---Bottom Directory-->
     <section>
-      <div class="row flex-grid">
-        <div class="col bottom-directory">
-          <img class="image image-directory" alt="Service Provided" src="img/service.jpg" />
+      <div class="row flex-grid directory-adjust">
+
+        <div class=" col bottom-directory ">
+          <img class="image directory-style image-directory image-adjust" alt="Service Provided" src="img/gallery.jpg" />
+          <!-- <div class="directory-text"> Services</div> -->
+
           <!-- <p class="center align-center"></p> -->
         </div>
 
         <div class="col bottom-directory">
-          <img class="image image-directory" alt="Service Provided" src="img/SittingRoom.jpg" />
+          <img class="image directory-style image-directory image-adjust" alt="Service Provided" src="img/HorseFarm.jpg" />
           <!-- <p class="center align-center"></p> -->
         </div>
 
         <div class="col bottom-directory">
-          <img class="image image-directory" alt="Service Provided" src="img/HorseFarm.jpg" />
+          
+          <img class="image directory-style  image-directory image-adjust " alt="Service Provided" src="img/weddingPlanning.jpg" />
           <!-- <p class="center align-center"></p> -->
         </div>
       </div>
@@ -96,7 +121,6 @@
           ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor</p>
-      
       </div>
 
       <ul class="ul-display">
@@ -104,15 +128,17 @@
         <li><a class="facebook" href="#"></a></li>
         <li><a class="instagram" href="#"></a></li>
       </ul>
+      
       <!--Email--->
-      <div class="flex-column"><h2 class="email-header ">Sign Up Today</h2>
+      <div class="flex-column">
+        <h2 class="email-header ">Sign Up Today</h2>
         <h3 class="email-text">Subscribe to our monthly newsletter and be the first to learn about our exclusive events and special offers.</h3>
-<form class="text-secondary" name="form1" action="#"> 
-Email: <input type='text' name='email'/></br></br>
-<input class="btn-style" type="submit" name="submit" value="Submit" onclick="validateEmail(document.form1.email)"/>
-</form>
-</div>
-        
+          <form class="text-secondary" name="form1" action="#">   
+          Email: <input type='text' name='email'/></br></br>
+        <input class="btn-style" type="submit" name="submit" value="Submit" onclick="validateEmail(document.form1.email)"/>
+      </form>
+      </div>
+    </section>
     <script src="js/custom.js"></script>
   </body>
 </html>
