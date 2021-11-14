@@ -77,7 +77,7 @@ label {
   }
   .banner {
     background-image: url(../img/Bridle&BitTablet.png);
-    height: 275px;
+    height: 255px;
     background-size: cover;
     background-position: center center;
   }
@@ -300,7 +300,7 @@ img {vertical-align: middle;}
 
 /*--Social Media--*/
 
-.twitter {
+/* .twitter {
   background-image: url(../img/twitter-64.jpg);
 }
 .facebook {
@@ -308,7 +308,7 @@ img {vertical-align: middle;}
 }
 .instagram {
   background-image: url(../img/instagram.png);
-}
+} */
 
 /* Email */
 .btn-style {

@@ -1,7 +1,7 @@
 # CL.FALL2021.ABA
 
 Project Brief: 
-    This webpage is intended as the main page for a ficticous bed and breakfast. The content of this page is responsive (both mobile and tablet screens.) 
+    This webpage is intended as the main page for a fictitious bed and breakfast. The content of this page is responsive (both mobile and tablet screens.) 
     Thank you for your time in reviewing my project. 
 
   
