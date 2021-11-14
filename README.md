@@ -12,7 +12,7 @@ Project Brief:
     4. The footer switches the social media and email sections from a row to a column as well. 
 
 - JavaScript:  
-    1. Image Carousel: In the HTML file, under the section labeled Image Carousel the images selected for the slides were designated the class "mySlides." In the Javascript file they are passed through a loop that increases by one therefore changing the position of the image. 
+    <!-- 1. Image Carousel: Explaination needed -->
     2. Email Validation: Using the function validateEmail and the variable mailformat the information entered must match a standard email format. If it matches, an alert informs the user their information is correct. If it does not, an alert advises them to retry.  
 
 - CSS: Also seen in Media Queries
