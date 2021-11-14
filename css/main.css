@@ -246,7 +246,7 @@ img {vertical-align: middle;}
 .active, .image:hover {
   opacity: .8;
   color: #a7e66e;
-  
+
 }
 
 @media screen and (max-width: 850px) {
@@ -338,4 +338,14 @@ img {vertical-align: middle;}
   font-style: bold;
   color: #ffffff;
   text-decoration: underline #a7e66e;
+}
+@media screen and (max-width: 850px){
+
+.footer-adjust {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    /* max-height: 20px; */
+  }
 }
