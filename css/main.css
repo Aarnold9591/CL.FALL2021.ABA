@@ -59,8 +59,8 @@ label {
   max-width: 1170px;
 }
 .banner {
-  background-image: url(../img/Bridle&BitDesktop.png);
-  height: 165px;
+  background-image: url(../img/bbBanner.png);
+  height: 140px;
   background-size: cover;
   background-position: center center;
 }
@@ -301,7 +301,7 @@ img {vertical-align: middle;}
 /*--Social Media--*/
 
 .twitter {
-  background-image: url(../img/twitter.png);
+  background-image: url(../img/twitter-64.jpg);
 }
 .facebook {
   background-image: url(../img/facebook.png);

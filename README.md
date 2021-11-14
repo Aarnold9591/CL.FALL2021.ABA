@@ -6,7 +6,7 @@ Project Brief:
 
   
 - Media Queries: 
-    1.Hero Banner changes for three different screen widths. 
+    1. Hero Banner changes for three different screen widths. 
     2. On mobile, the navigation bar changes into a hamburger button. 
     3. The image directory at the bottom of the page adjusts from a single row as the desktop view to columns (with complementing size adjustments) for tablet and mobile views. 
     4. The footer switches the social media and email sections from a row to a column as well. 
