@@ -12,7 +12,7 @@ Project Brief:
     4. The footer switches the social media and email sections from a row to a column as well. 
 
 - JavaScript:  
-    1. Image Carousel: Explaination needed
+    1. Image Carousel
     2. Email Validation: Using the function validateEmail and the variable mailformat the information entered must match a standard email format. If it matches, an alert informs the user their information is correct. If it does not, an alert advises them to retry.  
 
 - CSS: Also seen in Media Queries
