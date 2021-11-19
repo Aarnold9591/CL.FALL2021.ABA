@@ -290,9 +290,7 @@ img {vertical-align: middle;}
   flex-grow: 1;
 }
 
-/* .col {
-  flex: 1;
-} */
+
 .border {
   background-color: #3b4f66;
   padding: 5%;
@@ -300,15 +298,11 @@ img {vertical-align: middle;}
 
 /*--Social Media--*/
 
-/* .twitter {
-  background-image: url(../img/twitter-64.jpg);
+.grid {
+  display: grid;
+  place-items: center;
+  
 }
-.facebook {
-  background-image: url(../img/facebook.png);
-}
-.instagram {
-  background-image: url(../img/instagram.png);
-} */
 
 /* Email */
 .btn-style {
