@@ -15,25 +15,26 @@
   </head>
 
   <body>
+   
     <!---Hero-->
 
     <section class="banner">
       <div class="hero center flex-column align-center"></div>
     </section>
-    <!---Header and Nav-->
-    <section>
-      <div class="nav">
-        <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle" />
-        <div class="menu">
-          <a href="#">Accommodations</a>
-          <a href="#">Offers</a>
-          <a href="#">Local Attractions</a>
-          <a href="#">Services</a>
-          <a href="#">Contact Us</a>
-        </div>
+   <!---Header and Nav-->
+   <section class="sticky">
+    <div class="nav ">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
+      <div class="menu ">
+        <a href="#">Accommodations</a>
+        <a href="#">Offers</a>
+        <a href="#">Local Attractions</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!---Image Carousel--->
     <section>
@@ -61,13 +62,16 @@
 
     <!---Welcome--->
     <section>
-      <div class="flex-grid border welcome-border">
-        <div class="col">
+      <!-- <div class="flex-grid border welcome-border">
+        <div class="  ">  -->
+          <div class="welcome-border border row flex-grid ">
+            <div class="col text-block">
+              <div>
           <h2 class="text-secondary text-heading">
             Welcome to the Bridle and Bit
           </h2>
 
-          <p class="text-secondary">
+          <p class="text-secondary text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
             nulla porttitor massa id neque aliquam vestibulum morbi. Elit
@@ -77,17 +81,15 @@
             nulla porttitor massa id neque aliquam vestibulum morbi. Elit
             ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at.
           </p>
-          <p class="text-secondary">
-            Cras sem elit, ullamcorper a egestas in, condimentum et quam.
-            Maecenas consectetur, justo faucibus efficitur ultricies, augue
-            dolor eleifend purus, eu rutrum felis mauris ut felis. Aliquam
-            lacinia et nunc ac eleifend. Suspendisse quis tellus vehicula,
-            tempus arcu non, tempus quam. Maecenas et augue egestas, convallis
-            velit non, fringilla magna. Nulla varius tincidunt tincidunt. Nulla
-            congue non enim a venenatis. Vestibulum volutpat erat vel purus
-            viverra blandit. Donec suscipit rutrum neque ut pharetra. Aliquam
-            molestie rutrum purus vel posuere.
-          </p>
+            </div class="dis-img">
+        
+            <img
+            class="dis-img  image-right"
+            alt="Service Provided"
+            src="img/horses.jpg"
+          />
+           
+          
         </div>
       </div>
     </section>
@@ -96,40 +98,53 @@
     <section>
       <div class="row flex-grid directory-adjust">
         <div class="col bottom-directory">
+          <div>
           <img
+          
             class="image directory-style image-directory image-adjust"
             alt="Service Provided"
             src="img/gallery.jpg"
-          />
+            
+          /> 
+          <h2 class="header-three">Services</h2>
+        
+        </div>
         </div>
 
         <div class="col bottom-directory">
+          <div>
           <img
             class="image directory-style image-directory image-adjust"
             alt="Service Provided"
             src="img/HorseFarm.jpg"
           />
+          <h2 class="header-three">Attractions</h2>
+          </div>
         </div>
 
         <div class="col bottom-directory">
+          <div>
+
           <img
-            class="image directory-style image-directory image-adjust"
+            class=" image directory-style image-directory image-adjust"
             alt="Service Provided"
             src="img/weddingPlanning.jpg"
           />
+          <h2 class="header-three">Weddings</h2>
+          </div>
         </div>
       </div>
     </section>
 
     <!---Footer-->
-    <section class="col footer-adjust flex-grid border">
-      <div class="social-column social-header">
+    <section class="col  flex-grid border">
+      <div class="social-column  social-header">
         <h2>Follow Us</h2>
 
         <ul class="grid  ul-display">
-          <div>
+          <div class="social-icon">
             <li>
-              <a href="https://twitter.com/?lang=en">
+              <a  href="https://twitter.com/?lang=en">
                 <img alt="Twitter Link" src="img/twitter-3-64.png" />
               </a>
             </li>
@@ -139,7 +154,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/?hl=en">
+              <a  href="https://www.instagram.com/?hl=en">
                 <img alt="Instagram Link" src="img/instagram-3-64.png" />
               </a>
             </li>
@@ -148,13 +163,13 @@
       </div>
 
       <!--Email--->
-      <div>
+      <div class="email-style">
         <h2 class="email-header">Sign Up Today</h2>
         <h3 class="email-text">
           Subscribe to our monthly newsletter and be the first to learn about
           our exclusive events and special offers.
         </h3>
-        <form class="text-secondary" name="form1" action="#">
+        <form class="text-secondary footer-adjust" name="form1" action="#">
           Email: <input type="text" name="email" />
           <input
             class="btn-style"
